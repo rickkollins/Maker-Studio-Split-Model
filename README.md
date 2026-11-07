@@ -7,7 +7,7 @@ icons, text and machine names are original. It doesn't use any Luban or Snapmake
 There's no build step and nothing to install. Open `index.html` in a browser, or serve the folder:
 
 ```bash
-python3 -m http.server -d luban-clone 8000
+python3 -m http.server 8000
 ```
 
 Then go to <http://localhost:8000>. For USB connections, use Chrome or Edge, because they support Web Serial.
